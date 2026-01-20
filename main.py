@@ -17,8 +17,8 @@ pygame.display.set_caption("Pong-Game by epsilon003")
 clock = pygame.time.Clock()
 
 # Sound effects
-bounce_sound = pygame.mixer.Sound("C:\\Users\\Abhimantr Singh\\Downloads\\codecplus\\pong-game\\bounce.wav")
-score_sound = pygame.mixer.Sound("C:\\Users\\Abhimantr Singh\\Downloads\\codecplus\\pong-game\\score.wav")
+bounce_sound = pygame.mixer.Sound("bounce.wav")
+score_sound = pygame.mixer.Sound("score.wav")
 
 # Game States
 STATE_MENU = "menu"
